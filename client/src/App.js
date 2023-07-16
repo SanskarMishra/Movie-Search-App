@@ -18,7 +18,7 @@ const App = () => {
 
 
   const getAllMovies = async () => {
-    const response = await axios.get(`http://localhost:8050/api/movie/popular-movies`);
+    const response = await axios.get(`https://sm-movie-search.onrender.com/api/movie/popular-movies`);
 
     const allMovies = response.data;
     console.log(allMovies)
@@ -41,13 +41,13 @@ const App = () => {
       let response;
       if (searchQuery === "") {
 
-        response = await axios.get(`http://localhost:8050/api/movie/popular-movies`);
+        response = await axios.get(`https://sm-movie-search.onrender.com/api/movie/popular-movies`);
         setType("Popular Movies")
 
 
       }
       else {
-        response = await axios.get(`http://localhost:8050/api/movie/searched-movies?query=${searchQuery}`);
+        response = await axios.get(`https://sm-movie-search.onrender.com/api/movie/searched-movies?query=${searchQuery}`);
 
         setType("Searched results")
 
