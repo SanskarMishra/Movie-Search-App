@@ -1,0 +1,58 @@
+.movie-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.movie-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.movie-tagline {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.movie-rating {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.movie-rating i {
+    color: #ffd700;
+    margin-right: 5px;
+}
+
+.movie-runtime {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.movie-release-date {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.movie-genres {
+    margin-bottom: 10px;
+}
+
+.genre {
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.movie-synopsis {
+    margin-top: 20px;
+}
+
+.synopsis-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
