@@ -13,7 +13,7 @@ const popularMovieController = async (req, res) => {
 
         const resArray = response.data.results;
 
-        const keysToExtract = ['id', 'original_language', 'original_title', 'overview', 'release date', 'title', 'vote_average', 'vote_count', 'poster_path'];
+        const keysToExtract = ['id', 'original_language', 'original_title', 'overview', 'release_date', 'title', 'vote_average', 'vote_count', 'poster_path'];
 
         const extractedArray = resArray.map((obj) =>
             keysToExtract.reduce((result, key) => {
